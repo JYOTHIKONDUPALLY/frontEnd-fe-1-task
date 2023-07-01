@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slidebar</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        .container{
+            display:flex;
+        }
+        .sidebar{
+            border:1px solid #dadada;
+            border-left:none;
+            padding-left:5px;
+            border-radius: 0 20px 20px 0;
+            width:10rem;
+            height:80vh;
+            text-transform: uppercase;
+            margin:1rem;
+            padding:2rem 0rem;
+        }
+        .sb-heading{
+            color:blueviolet;
+            padding:0rem 0.5rem;
+            font-size:15px;
+text-transform:uppercase;
+letter-spacing: 2px;
+        }
+        .sb-item{
+            padding:0.5rem;
+            padding-bottom:4px;
+        }
+        .sb-item:hover{
+cursor: pointer;
+font-weight: 600;
+background-color:#f0f0f0;
+        }
+        .content{
+            position:relative;
+            top:30px;
+            padding:20px;
+        }
+        #heading{
+            color:blueviolet; 
+            letter-spacing: 2px;
+        }
+        p{
+            font-size:20px;
+            overflow: hidden;
+        }
+       @media screen and (max-width:480px){
+    .sidebar{
+        display:none;
+    }
+       }
+       @media screen and (min-width:480px){
+        .max-hide{
+            display:none;
+        }
+        
+       }
+    </style>
+</head>
+<body>
+    <header>
+           <h1 class="max-hide"> HOME</h1>
+    </header>
+    <div class="container">
+    <aside class="sidebar">
+        <h3 class="sb-heading">workspace</h3>
+        <div class="sb-item">Home</div>
+        <div class="sb-item">Dashboard</div>
+        <div class="sb-item">Analytics</div>
+        <div class="sb-item">Profile</div>
+        <div class="sb-item">Projects</div>
+        <div class="sb-item">Contact</div>
+        <div class="sb-item">About</div>
+    </aside>
+    <div class="content">
+        <h1 id="heading">lorem case</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis alias molestias porro quidem ex neque tenetur quibusdam ipsum esse sunt dignissimos, ea consectetur adipisci unde nisi reprehenderit odit eveniet? Ab, consequuntur pariatur culpa, porro perferendis impedit amet, minus eaque illum nisi maxime dignissimos? </p>
+        <img src=""
+    </div>
+</div>
+
+</body>
+</html>

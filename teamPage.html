@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charcet="UFT-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Page</title>
+    <style>
+        body{
+            background-color: #FAACA8;
+background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+        }
+        
+       header{
+        /* border:2px solid green; */
+      display:flex;
+      justify-content: space-around;
+      flex:1;
+      padding-left: 10px;
+       }
+        ul{
+            /* border:2px solid red; */
+            display:flex;
+            text-decoration: none;
+            flex:2;
+            justify-content:flex-end ;
+            align-items:center;
+          
+
+
+        }
+        li{
+            /* border:2px solid black; */
+            padding:15px;
+            font-weight: bold;
+            list-style:none;
+            text-decoration: none;
+        }
+li:hover{
+    color:blueviolet;
+    background-color: rgb(214, 208, 208);
+}
+
+    .teamMember{
+            height: 450px;
+            width: 400px;
+            padding-bottom: 30px;
+            /* border:3px solid black; */
+            margin:5px;
+            margin-bottom: 10px;
+            box-sizing:content-box;
+        }
+        .teamMember div{
+            padding:15px;
+        }
+        .teamMember:hover{
+            border:5px solid violet; 
+            background-color: #FF9A8B;
+background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+
+        
+        }
+        #one h4, #one h5{
+            color:navy;
+        }
+        #one{
+            color:darkslategray
+            /* background-color: darkcyan; */
+        }
+       
+        #two h4, #two h5{
+            color:darkslategray;
+        }
+        #three{
+            /* background-color: dodgerblue; */
+            color:darkslategray
+        }
+        #three h4, #three h5{
+color:navy;
+        }
+        footer,#footer{
+            display: flex;
+justify-content: center;
+align-items: center;
+
+        }
+        .para{
+            
+            padding: 4px;
+            border:2px solid #FF6A88;
+            border-radius: 15px;;
+            height:170px;
+            width:50vw;
+            font-style:normal;
+            font-size: medium;
+        }
+        @media (min-width:550px){
+    html {
+            font-size:20px;
+        }
+        .card{
+            display:flex;
+        }
+       
+        }
+       .description{
+        padding-bottom: 10px;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="heading">ORIGAMA TEAM</h1>
+        <ul>
+            <li>HOME</li>
+            <li><a href="#footer">ABOUT US</a></li>
+            <li>PROJECTS</li>
+            <li>CONTACT</li>
+        </ul>
+    </header>
+   
+        <h2 class="sub-heading">Meet the team</h2>
+        <p class="sub-heading">The people who make this software awesome</p>
+   
+   
+    <div class="card">
+    <section id="one" class="teamMember">
+<img src="https://avatars.dicebear.com/api/avataaars/annakendrick.svg" width="256px"/>
+<div><h4>Anna Kendtick</h4>
+    <h5>Front End Ninja</h5>
+    <p class="description">Bibliophile, loves to dive into fictional worlds, ships JS code like brownies
+    </p></div>
+
+    </section>
+    <section id="two" class="teamMember">
+        <img src="https://avatars.dicebear.com/api/avataaars/harryfn.svg" width="256px"/>
+        <div> <h4>Harry Fawn
+        </h4>
+        <h5> Illustrator
+        </h5>
+        <p class="description">Creates new illustrations each week, will kill for coffee, and loves beaches.</p></div>
+       
+            </section>
+            <section id="three" class="teamMember">
+                <img src="https://avatars.dicebear.com/api/avataaars/sofiasul.svg" width="256px"/>
+                <div> <h4>Sofia Sultan</h4>
+                    <h5>Backend Engineer</h5>
+                    <p class="description">Donuts over waffles. Martinis over whiskeys. Typescript over anything.</p></div>
+               
+                    </section>
+                </div>
+                <h3 id="footer">About us</h3>
+                <footer>
+                  
+                    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ea repellendus consequuntur dolorum minus laboriosam tempora ducimus! Saepe dolorum, suscipit eius quis deleniti eaque? Labore voluptas veniam ipsam. Perspiciatis, saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ea repellendus consequuntur dolorum minus laboriosam tempora ducimus! Saepe dolorum, suscipit eius quis deleniti eaque? Labore voluptas veniam ipsam. Perspiciatis, saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ea repellendus consequuntur dolorum minus laboriosam tempora ducimus! Saepe dolorum, suscipit eius quis deleniti eaque? Labore voluptas veniam ipsam. Perspiciatis, saepe.</p>
+                </footer>
+              
+</body>
+</html>

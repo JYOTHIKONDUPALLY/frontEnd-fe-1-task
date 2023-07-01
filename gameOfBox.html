@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game of boxes</title>
+    <style>
+
+header h1 {
+  display: flex;
+  justify-content: center;
+  color: #4a148c;
+  letter-spacing: -1px;
+}
+
+       #parent {
+        position:relative;
+  background-color: #212121;
+  margin: auto;
+  width: 256px;
+  height: 256px;
+
+}
+
+#child-1 {
+    position:absolute;
+    top:0;
+    left:0;
+  width: 2rem;
+  height: 2rem;
+  background-color: #ff8a80;
+}
+
+#child-2 {
+    position:absolute;
+    top:1rem;
+    left:1rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: #69f0ae;
+}
+
+#child-3 {
+    position:absolute;
+    top:2rem;
+    left:2rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: #ffee58;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>the game of boxes</h1>
+    </header>
+    <div id="parent">
+        <div id="child-1"><br></div>
+        <div id="child-2"><br></div>
+        <div id="child-3"><br></div>
+        <div id="child-4"><br></div>
+    </div>
+    
+</body>
+</html>

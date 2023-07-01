@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game of grids</title>
+    <style>
+ul{
+    display: grid;
+ grid-template-rows: 8rem 8rem;
+ grid-template-columns: 8rem 8rem 8rem;
+ list-style: none;
+}
+#one{
+    background-color:crimson;
+    grid-column-start:1;
+    grid-column-end:3;
+}
+#two{
+background-color: blueviolet;
+grid-column-start:3;
+grid-column-end:4;
+grid-row-start:1;
+grid-row-end:4;
+}
+#three{
+background-color:chartreuse;
+grid-row-start:2;
+grid-row-end:5;
+}
+#four{
+background-color: darksalmon;
+}
+#five{
+background-color: forestgreen;
+}
+#six{
+    background-color:hotpink;
+    grid-column-start:2;
+    grid-column-end:4;
+}
+    </style>
+</head>
+<body>
+    <ul>
+        <li id="one">1</li>
+        <li id="two">2</li>
+        <li id="three">3</li>
+        <li id="four">4</li>
+        <li id="five">5</li>
+        <li id="six">6</li>
+    </ul>
+
+</body>
+</html>
