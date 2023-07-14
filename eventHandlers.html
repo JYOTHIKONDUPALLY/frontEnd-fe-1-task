@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID Card</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        .container{
+            border:1px solid gainsboro;
+            min-width: 128px;
+  max-width: 256px;
+  min-height: 128px;
+margin:auto;
+
+        }
+        .img {
+            display:flex;
+            justify-content: center;
+            padding:10px;
+        }
+       .content{
+        display:flex;
+       flex-direction: column;
+            justify-content: center;
+           padding-left: 20px;;
+        }
+    </style>
+</head>
+<body>
+    <h1>Final exams results</h1>
+    <div class="container">
+        <div class="img"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlvb7oCctgrtaeQjubWTqFAOvtAEU_KIYJ8A&usqp=CAU"/></div>
+       <div class="content">
+        <h2><b>NAME</b>:JYOTHI</h2>
+        <h3><b>ROLE</b>:Quality engineer</h3>
+        <input type="submit" id="btn" value="submit" size="4" />
+       </div>
+</bodydiv>
+       
+       
+       <script>
+        let btn=document.querySelector('#btn');
+        btn.addEventListener("click", function(event){
+          alert("PASS");
+        });
+       </script>
+    </div>
+</body>
+</html>

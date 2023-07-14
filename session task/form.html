@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up form</title>
+    <style>
+        div{
+            padding:5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>book a session</h1>
+    <div>
+    <label for="fullName">full Name:</label>
+    <input type="text" placeholder="your name" />
+    </div>
+    <div>
+    <label for="email">email:</label>
+    <input type="email"  placeholder="email"/>
+    </div>
+   <button>show details</button>
+   <script>
+    const data={
+        fullName:"",
+        Email:""
+    };
+    const name=documen.querySelector("[type=text]");
+    const email=documen.querySelector("[type=email]")
+    name.addEventListener("input",(e)=>{
+        data.fullName=e.target.value;
+    });
+    email.addEventListener("input",(e)=>{
+        data.Email=e.target.value;
+    });
+    
+   </script>
+
+</body>
+</html>
